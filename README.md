@@ -65,11 +65,11 @@ I'm always open to **collaborations, new opportunities, and tech discussions**. 
 📌 **Find me online:**  
 
 🌐 **Website:** [mrriyaj.com](https://mrriyaj.com)  
-💼 **LinkedIn:** [in/mrriyaj](https://www.linkedin.com/in/mrriyaj)  
-📺 **YouTube:** [youtube.com/@mrriyaj](https://www.youtube.com/@mrriyaj)  
-📸 **Instagram:** [@mr.riyaj](https://www.instagram.com/mr.riyaj/)  
-📘 **Facebook:** [@mr.riyaj](https://www.facebook.com/mr.riyajcom/)  
-🎵 **TikTok:** [@mr.riyaj](https://www.tiktok.com/@mrriyaj.com)  
+💼 **LinkedIn:** [in/mrriyaj](https://www.linkedin.com/in/riyajkm/)  
+📺 **YouTube:** [youtube.com/@riyaj-km](https://www.instagram.com/riyajkm/)  
+📸 **Instagram:** [@riyajkm](https://www.instagram.com/riyajkm/)  
+📘 **Facebook:** [@riyajkm](https://facebook.com/riyajkm)  
+🎵 **TikTok:** [@riyajkaf](https://www.tiktok.com/@riyajkaf)  
 
 💬 **Let’s talk tech!** Drop me a message anytime.  
 
