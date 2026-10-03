@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="Riyaj Kafardeen monogram">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.55" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#0b2a4a"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#ff2d20"/>
+    </linearGradient>
+    <linearGradient id="text" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e0f2fe"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <pattern id="hex" width="28" height="48.5" patternUnits="userSpaceOnUse" patternTransform="translate(0,0)">
+      <path d="M14 0 L28 8.08 L28 24.25 L14 32.33 L0 24.25 L0 8.08 Z M14 32.33 L14 48.5" fill="none" stroke="#38bdf8" stroke-opacity="0.16" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="round"><rect width="240" height="240" rx="28"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="240" height="240" fill="url(#bg)"/>
+    <rect width="240" height="240" fill="url(#hex)"/>
+    <circle cx="120" cy="120" r="110" fill="url(#glow)">
+      <animate attributeName="r" values="100;118;100" dur="5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- circuit traces -->
+    <g fill="none" stroke="#22d3ee" stroke-width="1.4" stroke-linecap="round" stroke-opacity="0.75">
+      <path d="M12 40 H48 L64 56 H92"/>
+      <path d="M12 200 H40 L56 184 H84"/>
+      <path d="M228 60 H196 L180 76 H152"/>
+      <path d="M228 190 H200 L184 174 H156"/>
+      <path d="M120 10 V34"/>
+      <path d="M120 230 V206"/>
+      <path d="M30 120 H52"/>
+      <path d="M210 120 H188"/>
+    </g>
+    <g fill="#0f172a" stroke="#22d3ee" stroke-width="1.6">
+      <circle cx="92" cy="56" r="3.2"/>
+      <circle cx="84" cy="184" r="3.2"/>
+      <circle cx="152" cy="76" r="3.2"/>
+      <circle cx="156" cy="174" r="3.2"/>
+      <circle cx="120" cy="34" r="3.2"/>
+      <circle cx="120" cy="206" r="3.2"/>
+      <circle cx="52" cy="120" r="3.2"/>
+      <circle cx="188" cy="120" r="3.2"/>
+    </g>
+    <!-- travelling pulses -->
+    <circle r="2.6" fill="#22d3ee">
+      <animateMotion dur="3.2s" repeatCount="indefinite" path="M12 40 H48 L64 56 H92"/>
+    </circle>
+    <circle r="2.6" fill="#a78bfa">
+      <animateMotion dur="3.8s" repeatCount="indefinite" path="M228 190 H200 L184 174 H156"/>
+    </circle>
+    <circle r="2.6" fill="#22d3ee">
+      <animateMotion dur="4.4s" repeatCount="indefinite" path="M12 200 H40 L56 184 H84"/>
+    </circle>
+    <circle r="2.6" fill="#a78bfa">
+      <animateMotion dur="3.5s" repeatCount="indefinite" path="M228 60 H196 L180 76 H152"/>
+    </circle>
+
+    <!-- rotating dashed ring -->
+    <circle cx="120" cy="120" r="78" fill="none" stroke="url(#ring)" stroke-width="2" stroke-dasharray="6 10" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate" from="0 120 120" to="360 120 120" dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="120" r="64" fill="none" stroke="#7c3aed" stroke-opacity="0.5" stroke-width="1" stroke-dasharray="2 6">
+      <animateTransform attributeName="transform" type="rotate" from="360 120 120" to="0 120 120" dur="36s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- hex core -->
+    <path d="M120 66 L167 93 L167 147 L120 174 L73 147 L73 93 Z" fill="#0f172a" fill-opacity="0.85" stroke="url(#ring)" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M120 78 L156 99 L156 141 L120 162 L84 141 L84 99 Z" fill="none" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="1"/>
+
+    <!-- monogram -->
+    <text x="120" y="134" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="42" font-weight="700" fill="url(#text)" letter-spacing="1">RK</text>
+    <text x="120" y="150" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="9" fill="#22d3ee" fill-opacity="0.9" letter-spacing="3">&lt;/dev&gt;</text>
+
+    <!-- corner brackets -->
+    <g fill="none" stroke="#22d3ee" stroke-width="2" stroke-opacity="0.6">
+      <path d="M14 30 V14 H30"/>
+      <path d="M210 14 H226 V30"/>
+      <path d="M226 210 V226 H210"/>
+      <path d="M30 226 H14 V210"/>
+    </g>
+  </g>
+</svg>
